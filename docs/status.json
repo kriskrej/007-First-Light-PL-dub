@@ -3,7 +3,7 @@
   "snapshot_utc": "2026-10-26T07:13:33.153884+00:00",
   "author": "Kris Krej",
   "target_platform": "Windows / Steam",
-  "public_audio_release_available": false,
+  "public_audio_release_available": true,
   "ready_audio": 38478,
   "installed_audio": 38478,
   "ready_captioned_audio": 27634,
@@ -171,7 +171,7 @@
   "remaining_requested_captioned_audio": 0,
   "captionless_generation_excluded_by_owner": true,
   "local_release_candidate_version": "1.0.0",
-  "release_candidate_audio_uploaded": false,
+  "release_candidate_audio_uploaded": true,
   "release_candidate_installer_e2e_passed": true,
   "release_candidate_runtime_full_playthrough": false,
   "status": "complete",
@@ -180,5 +180,9 @@
   "owner_accepted_final_scope": true,
   "source_repository": "https://github.com/kriskrej/007-First-Light-PL-dub",
   "user_selected_original_exceptions": 2,
-  "final_listening_decisions_resolved": 5
+  "final_listening_decisions_resolved": 5,
+  "public_release_version": "1.0.0",
+  "public_release_url": "https://github.com/kriskrej/007-First-Light-PL-dub/releases/tag/v1.0.0",
+  "player_download_url": "https://github.com/kriskrej/007-First-Light-PL-dub/releases/download/v1.0.0/007-First-Light-PL-dub-1.0.0-Windows-Steam.zip",
+  "release_publication_verified_without_login": true
 }

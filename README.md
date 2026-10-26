@@ -4,7 +4,7 @@
 
 ## Pobierz i zainstaluj
 
-1. Otwórz **[wydanie 1.0.0 w Releases](https://github.com/kriskrej/007-First-Light-PL-dub/releases/tag/v1.0.0)** i pobierz **`007-First-Light-PL-dub-1.0.0-Windows-Steam.zip`** z sekcji **Assets**.
+1. **[Pobierz polski dubbing 1.0.0 dla Windows / Steam](https://github.com/kriskrej/007-First-Light-PL-dub/releases/download/v1.0.0/007-First-Light-PL-dub-1.0.0-Windows-Steam.zip)**. [Strona wydania i sumy kontrolne](https://github.com/kriskrej/007-First-Light-PL-dub/releases/tag/v1.0.0).
 2. Rozpakuj cały ZIP do dowolnego folderu i zamknij grę.
 3. Uruchom **`ZAINSTALUJ.cmd`**. Poczekaj na komunikat o zakończeniu; sprawdzanie plików może potrwać kilka minut.
 4. W grze ustaw **audio: English** i **napisy: Polski**.
