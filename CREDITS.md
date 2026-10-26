@@ -1,6 +1,6 @@
 # Credits
 
-**Kris Krej** — autor projektu, opracowanie polskiej lokalizacji i narzędzi.
+**Kris Krej** - autor projektu, opracowanie polskiej lokalizacji i narzędzi.
 
 ## Projekty wykorzystane przy tworzeniu narzędzi
 
@@ -15,7 +15,7 @@
 
 ## Narzędzia produkcyjne
 
-ElevenLabs — synteza głosów; Audiokinetic Wwise — kodowanie WEM; vgmstream — odczyt i kontrola audio; FFmpeg — przygotowanie dźwięku; whisper.cpp — pomocnicze rozpoznawanie mowy.
+ElevenLabs - synteza głosów; Audiokinetic Wwise - kodowanie WEM; vgmstream - odczyt i kontrola audio; FFmpeg - przygotowanie dźwięku; whisper.cpp - pomocnicze rozpoznawanie mowy.
 
 Narzędzia zewnętrzne i modele nie są dołączone do repozytorium. Ich użycie podlega licencjom dostawców. Numery analizowanych commitów: [sources.json](docs/sources.json). Wymagane informacje licencyjne: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 

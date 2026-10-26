@@ -1,24 +1,17 @@
 {
-  "snapshot_date": "2026-10-21",
-  "snapshot_utc": "2026-10-21T10:21:34.514756+00:00",
+  "snapshot_date": "2026-10-26",
+  "snapshot_utc": "2026-10-26T07:13:33.153884+00:00",
   "author": "Kris Krej",
   "target_platform": "Windows / Steam",
   "public_audio_release_available": false,
-  "ready_audio": 38475,
-  "installed_audio": 38475,
-  "ready_captioned_audio": 27631,
+  "ready_audio": 38478,
+  "installed_audio": 38478,
+  "ready_captioned_audio": 27634,
   "known_captioned_audio": 27792,
   "additional_captionless_audio": 10844,
-  "ready_captioned_percent": 99.421,
-  "preserved_captioned_original_audio": 156,
-  "remaining_captioned_audio": 5,
-  "whole_game_percent": null,
-  "whole_game_percent_note": "Captionless corpus is still being classified; captioned percentage does not measure the whole game.",
-  "additional_captionless_candidates": 55041,
-  "separate_vox_candidates": 9906,
-  "total_captionless_candidates": 64947,
+  "preserved_captioned_original_audio": 158,
+  "remaining_captioned_audio": 0,
   "preserved_nonlexical_vox_originals": 3570,
-  "candidate_note": "Main55041 and separate9906VOX inventories have no overlapping audio hashes. These candidates include speech, nonverbal reactions and duplicate performances; not a count of remaining paid generations or a denominator for full-game percentage. Preserved universal nonlexical originals are separate from Polish-generated audio.",
   "runtime_confirmed_audio": 1,
   "lipsync_fix_runtime_confirmed": true,
   "lipsync_runtime_scope": "User confirmed moving mouths throughout the Q laboratory conversation in Out of the Ashes on 2026-10-19; not a whole-game runtime test",
@@ -29,8 +22,7 @@
       "mapped_total": 588,
       "ready_polish": 566,
       "installed_polish": 566,
-      "preserved_original": 22,
-      "processed_percent": 100.0
+      "preserved_original": 22
     },
     {
       "number": 2,
@@ -38,8 +30,7 @@
       "mapped_total": 141,
       "ready_polish": 141,
       "installed_polish": 141,
-      "preserved_original": 0,
-      "processed_percent": 100.0
+      "preserved_original": 0
     },
     {
       "number": 3,
@@ -47,8 +38,7 @@
       "mapped_total": 324,
       "ready_polish": 317,
       "installed_polish": 317,
-      "preserved_original": 7,
-      "processed_percent": 100.0
+      "preserved_original": 7
     },
     {
       "number": 4,
@@ -56,8 +46,7 @@
       "mapped_total": 331,
       "ready_polish": 331,
       "installed_polish": 331,
-      "preserved_original": 0,
-      "processed_percent": 100.0
+      "preserved_original": 0
     },
     {
       "number": 5,
@@ -65,8 +54,7 @@
       "mapped_total": 570,
       "ready_polish": 564,
       "installed_polish": 564,
-      "preserved_original": 6,
-      "processed_percent": 100.0
+      "preserved_original": 6
     },
     {
       "number": 6,
@@ -74,8 +62,7 @@
       "mapped_total": 547,
       "ready_polish": 547,
       "installed_polish": 547,
-      "preserved_original": 0,
-      "processed_percent": 100.0
+      "preserved_original": 0
     },
     {
       "number": 7,
@@ -83,8 +70,7 @@
       "mapped_total": 555,
       "ready_polish": 551,
       "installed_polish": 551,
-      "preserved_original": 4,
-      "processed_percent": 100.0
+      "preserved_original": 4
     },
     {
       "number": 8,
@@ -92,8 +78,7 @@
       "mapped_total": 963,
       "ready_polish": 951,
       "installed_polish": 951,
-      "preserved_original": 12,
-      "processed_percent": 100.0
+      "preserved_original": 12
     },
     {
       "number": 9,
@@ -101,8 +86,7 @@
       "mapped_total": 400,
       "ready_polish": 400,
       "installed_polish": 400,
-      "preserved_original": 0,
-      "processed_percent": 100.0
+      "preserved_original": 0
     },
     {
       "number": 10,
@@ -110,8 +94,7 @@
       "mapped_total": 1886,
       "ready_polish": 1876,
       "installed_polish": 1876,
-      "preserved_original": 10,
-      "processed_percent": 100.0
+      "preserved_original": 10
     },
     {
       "number": 11,
@@ -119,8 +102,7 @@
       "mapped_total": 1170,
       "ready_polish": 1165,
       "installed_polish": 1165,
-      "preserved_original": 5,
-      "processed_percent": 100.0
+      "preserved_original": 5
     },
     {
       "number": 12,
@@ -128,8 +110,7 @@
       "mapped_total": 853,
       "ready_polish": 849,
       "installed_polish": 849,
-      "preserved_original": 4,
-      "processed_percent": 100.0
+      "preserved_original": 4
     },
     {
       "number": 13,
@@ -137,8 +118,7 @@
       "mapped_total": 117,
       "ready_polish": 116,
       "installed_polish": 116,
-      "preserved_original": 1,
-      "processed_percent": 100.0
+      "preserved_original": 1
     },
     {
       "number": 14,
@@ -146,8 +126,7 @@
       "mapped_total": 1631,
       "ready_polish": 1623,
       "installed_polish": 1623,
-      "preserved_original": 8,
-      "processed_percent": 100.0
+      "preserved_original": 8
     },
     {
       "number": 15,
@@ -155,8 +134,7 @@
       "mapped_total": 294,
       "ready_polish": 293,
       "installed_polish": 293,
-      "preserved_original": 1,
-      "processed_percent": 100.0
+      "preserved_original": 1
     },
     {
       "number": 16,
@@ -164,8 +142,7 @@
       "mapped_total": 877,
       "ready_polish": 876,
       "installed_polish": 876,
-      "preserved_original": 1,
-      "processed_percent": 100.0
+      "preserved_original": 1
     },
     {
       "number": 17,
@@ -173,31 +150,35 @@
       "mapped_total": 380,
       "ready_polish": 375,
       "installed_polish": 375,
-      "preserved_original": 5,
-      "processed_percent": 100.0
+      "preserved_original": 5
     }
   ],
   "shared_captioned_npc": {
     "known_captioned_audio": 15745,
-    "ready_polish": 15693,
-    "installed_polish": 15693,
-    "preserved_original": 47,
-    "polish_percent": 99.67
+    "ready_polish": 15696,
+    "installed_polish": 15696,
+    "preserved_original": 49
   },
   "last_installed_audit": {
-    "checked_utc": "2026-10-21T10:18:59.505215+00:00",
-    "wwes_checked": 38475,
-    "dlge_checked": 7829,
+    "checked_utc": "2026-10-26T07:18:31.761151+00:00",
+    "wwes_checked": 38478,
+    "dlge_checked": 7830,
     "wwes_markers_after_data": 0,
+    "runtime_verified": false,
     "english_facefx_changes": 0,
-    "missing_face_dependencies": 0,
-    "runtime_verified": false
+    "missing_face_dependencies": 0
   },
-  "requested_captioned_dubbing_percent": 99.982,
-  "remaining_requested_captioned_audio": 5,
+  "remaining_requested_captioned_audio": 0,
   "captionless_generation_excluded_by_owner": true,
-  "local_release_candidate_version": "0.9.0-rc1",
+  "local_release_candidate_version": "1.0.0",
   "release_candidate_audio_uploaded": false,
   "release_candidate_installer_e2e_passed": true,
-  "release_candidate_runtime_full_playthrough": false
+  "release_candidate_runtime_full_playthrough": false,
+  "status": "complete",
+  "completion_label": "Kompletne",
+  "version": "1.0.0",
+  "owner_accepted_final_scope": true,
+  "source_repository": "https://github.com/kriskrej/007-First-Light-PL-dub",
+  "user_selected_original_exceptions": 2,
+  "final_listening_decisions_resolved": 5
 }

@@ -1,70 +1,44 @@
-<div align="center">
+# 007 First Light - Polski dubbing
 
-# 007 First Light — Polski dubbing
+**Kompletne polskie tłumaczenie z dubbingiem. Bezpłatny mod na PC / Steam.**
 
-**Nieoficjalny polski dubbing do 007 First Light na PC / Steam**
+## Pobierz i zainstaluj
 
-Projekt i opracowanie: **Kris Krej**
+1. Otwórz **[wydanie 1.0.0 w Releases](https://github.com/kriskrej/007-First-Light-PL-dub/releases/tag/v1.0.0)** i pobierz **`007-First-Light-PL-dub-1.0.0-Windows-Steam.zip`** z sekcji **Assets**.
+2. Rozpakuj cały ZIP do dowolnego folderu i zamknij grę.
+3. Uruchom **`ZAINSTALUJ.cmd`**. Poczekaj na komunikat o zakończeniu; sprawdzanie plików może potrwać kilka minut.
+4. W grze ustaw **audio: English** i **napisy: Polski**.
 
-[Stan projektu](docs/STATUS.md) · [Instalacja](docs/INSTALLATION.md) · [Znane problemy](docs/KNOWN_ISSUES.md) · [Rozwój narzędzi](docs/DEVELOPMENT.md)
+Nie potrzebujesz Pythona, Wwise, konta ElevenLabs ani klucza API. Archiwa **Source code** zawierają kod narzędzi; paczką dla graczy jest wskazany plik **Windows-Steam.zip**.
 
-</div>
+**Odinstalowanie:** zamknij grę i uruchom **`USUN.cmd`** z rozpakowanej paczki. Zachowaj folder `.007pl` w katalogu gry - zawiera dane potrzebne do cofnięcia instalacji.
 
-Projekt ma umożliwić przejście całej gry z polskimi głosami i tekstem. Korzysta z oficjalnych polskich napisów dostępnych w grze; brakujące lub wymagające adaptacji kwestie są opracowywane z angielskiego oryginału. Głosy są syntetyzowane przy użyciu ElevenLabs.
+**Zgodność:** Windows, Steam, build **25753571**. Instalator sam wykrywa grę i sprawdza zgodność plików. [Pełna instrukcja](docs/INSTALLATION.md) · [Pomoc i znane ograniczenia](docs/KNOWN_ISSUES.md)
 
-## Próbka dubbingu w grze
+## O wydaniu
+
+**Wersja 1.0.0 - kompletne.** Opracowanie: **Kris Krej**. Wydanie zawiera **38 478 polskich nagrań**, oficjalne polskie napisy oraz adaptacje brakujących tekstów. Obejmuje dialogi fabularne i NPC w uzgodnionym zakresie rozdziałów 1-17.
+
+Zgodnie z końcowym odsłuchem zachowano dwie wskazane kwestie CIVMRM03 w oryginale. Pozostają również celowe obce języki i odgłosy. Dalszych reakcji bez napisów nie tłumaczono; wcześniej przygotowane polskie reakcje są dołączone.
+
+Głosy są syntetyczne, wygenerowane przez **ElevenLabs**. Jest to nieoficjalny projekt fanowski.
+
+## Próbka w grze
 
 https://github.com/user-attachments/assets/d099d0b6-7952-49cb-946b-a754983824b2
 
 [Obejrzyj na YouTube](https://www.youtube.com/watch?v=F9PckKLI7JM)
 
-Nagranie prezentuje dubbing w grze z lokalnej wersji rozwojowej projektu. Publiczna paczka dla graczy jest w przygotowaniu.
-
-## Stan projektu
-
-**Trwa przygotowanie pierwszego publicznego wydania testowego.** Repozytorium zawiera kod narzędzi i dokumentację. Gotowa paczka dla graczy zostanie udostępniona osobno w Releases po zakończeniu przygotowań i sprawdzeniu uprawnień do dystrybucji.
-
-| Pomiar lokalnej wersji — 2026-10-21 | Wynik |
-|---|---:|
-| Gotowe polskie nagrania | 38 475 |
-| Lokalnie zainstalowane polskie nagrania | 38 475 |
-| Pokrycie znanego korpusu nagrań z oryginalnym tekstem | 99,421% |
-| Dodatkowe gotowe nagrania bez pierwotnych napisów | 10 844 |
-| Pokrycie zakresu dialogów z tekstem wymagających dubbingu | 99,982% |
-| Pozostałe nierozstrzygnięte kwestie w tym zakresie | 5 |
-| Procent ukończenia całej gry | W trakcie ustalania |
-| Docelowa platforma | Windows / Steam |
-
-W korpusie z tekstem gotowe jest 27 631 polskich nagrań; 156 oryginalnych odgłosów lub wypowiedzi obcojęzycznych zachowano celowo, a pięć krótkich kwestii pozostaje nierozstrzygniętych. Po wyłączeniu zachowanych oryginałów zakres wymagający dubbingu ma **99,982%** pokrycia. To pomiar zasobów, a nie czasu rozgrywki.
-
-Dalsze reakcje bez napisów wyłączono z produkcji na życzenie właściciela projektu. Wcześniej przygotowane 10 844 dodatkowe polskie nagrania pozostają w paczce. Nie deklarujemy zastąpienia każdej reakcji słyszalnej w grze. Szczegóły: [stan](docs/STATUS.md) i [przygotowanie wydania](docs/RELEASE_PUBLICATION.md).
-
-Lokalnie przygotowano **0.9.0-rc1** z samodzielnym instalatorem Windows i rollbackiem. Paczka audio nie została opublikowana. Przed uploadem pozostają potwierdzenia uprawnień opisane w [LEGAL.md](LEGAL.md).
-
-## Dla graczy
-
-Docelowa paczka będzie zawierać przygotowany dubbing oraz instalator i odinstalowanie. Do korzystania z gotowego wydania nie będzie potrzebny klucz API ani samodzielne generowanie głosów.
-
-Wymagana jest własna kopia gry. Pierwsze wydanie będzie przygotowane dla konkretnej, przetestowanej wersji Steam. Zasady zgodności, instalacji i aktualizacji: [instrukcja](docs/INSTALLATION.md).
-
-## Narzędzia
-
-- Odczyt i mapowanie zasobów dialogowych oraz oficjalnego tekstu PL.
-- Wznawialne generowanie z cache, kontrolą kosztów i historią żądań.
-- Dopasowanie czasu, poziomu i markerów nagrań.
-- Budowa osobnych patchy RPKG z kontrolą odczytu po zapisie.
-- Dziennik instalacji, kontrola zgodności i odwracalne usuwanie własnych zmian.
-
-Repozytorium narzędzi nie zastępuje gotowej paczki wydania. Uruchamianie produkcji dubbingu wymaga lokalnych danych, konfiguracji i uprawnień opisanych w [dokumentacji developerskiej](docs/DEVELOPMENT.md).
-
 ## Zgłaszanie problemów
 
-W Issues podaj wersję moda i gry, rozdział, checkpoint oraz krótki opis oczekiwanego i rzeczywistego zachowania. Przy błędzie audio pomocny jest krótki klip. Sprawdź wcześniej [znane problemy](docs/KNOWN_ISSUES.md). Nie dołączaj kluczy, pełnych plików gry, prywatnych danych ani zapisów konta.
+W [Issues](https://github.com/kriskrej/007-First-Light-PL-dub/issues) podaj wersję moda i gry, rozdział, checkpoint oraz krótki opis. Pomocny jest krótki klip. Nie dołączaj kluczy API, pełnych plików gry ani prywatnych danych.
 
-## Autorstwo i licencje
+## Kod, testy i autorzy
 
-Autorem projektu jest **Kris Krej**. Wykorzystane projekty i ich autorów wymieniono w [Credits](CREDITS.md) oraz [Third-party notices](THIRD_PARTY_NOTICES.md).
+[Stan wydania](docs/STATUS.md) · [Testy](docs/TESTING.md) · [Rozwój narzędzi](docs/DEVELOPMENT.md) · [Materiały publikacyjne](docs/RELEASE_PUBLICATION.md)
 
-Licencja MIT obejmuje własny kod narzędzi i dokumentację w zakresie posiadanych praw. Zasoby gry, teksty, modele głosów i paczki audio podlegają osobnym zasadom. Informacje o prawach i warunkach publikacji: [LEGAL.md](LEGAL.md).
+Instalator używa osobnych patchy RPKG, zachowuje wcześniejsze mody i zapisuje dane rollbacku. Kod oraz dokumentacja są dostępne w tym repozytorium. Audio jest osobnym załącznikiem wydania.
 
-Projekt fanowski, niezależny od IO Interactive i właścicieli praw do Jamesa Bonda. Nie jest oficjalną lokalizacją ani produktem przez nich zatwierdzonym.
+Autor: **Kris Krej**. Wykorzystane projekty i autorzy: [Credits](CREDITS.md), [Third-party notices](THIRD_PARTY_NOTICES.md). Zasady licencji i udostępniania: [LEGAL.md](LEGAL.md).
+
+Projekt jest niezależny od IO Interactive oraz właścicieli praw do Jamesa Bonda. Nie jest oficjalną lokalizacją.

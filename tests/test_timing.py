@@ -12,6 +12,35 @@ from dub007.timing import prepare_segments, prepare_campaign_segments
 
 
 class TimingTests(unittest.TestCase):
+    def test_listened_final_take_duration_requires_exact_approval_and_no_internal_sync(self):
+        from dub007.audio import target_samples
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            evidence = root / 'approval.json'
+            decision = {'sample_count': 1800, 'original_sample_count': 1000,
+                        'sample_rate': 1000, 'source_sha256': 'reviewed-audio',
+                        'user_approved': True}
+            evidence.write_text(json.dumps({'approved_final_takes': {'test': decision}}), encoding='utf-8')
+            row = {'audio_hash_en': 'test', 'sample_count': 1000, 'sample_rate': 1000,
+                   'chapter_id': 'test', 'segments_pl': [{'text': 'Accepted'}],
+                   'original_markers': {'cue ': {'points': [{'sample_offset': 0}]}},
+                   'user_approved_final_take_timing': {
+                       'sample_count': 1800, 'source_sha256': 'reviewed-audio',
+                       'evidence_path': 'approval.json', 'evidence_sha256': sha256(evidence.read_bytes())}}
+            with patch('dub007.audio.ROOT', root):
+                self.assertEqual(target_samples(row), 1800)
+                row['user_approved_final_take_timing']['sample_count'] = 1900
+                with self.assertRaises(ValueError):
+                    target_samples(row)
+                row['user_approved_final_take_timing']['sample_count'] = 1800
+                row['original_markers']['cue ']['points'][0]['sample_offset'] = 100
+                with self.assertRaises(ValueError):
+                    target_samples(row)
+                row['original_markers']['cue ']['points'][0]['sample_offset'] = 0
+                evidence.write_text('{}', encoding='utf-8')
+                with self.assertRaises(ValueError):
+                    target_samples(row)
+
     def test_pause_fit_preserves_existing_decimal_boundaries_for_subtitle_validation(self):
         from dub007.subtitles import replacement_text
         row = {'chapter_id': 'test', 'duration': 10,

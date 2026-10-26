@@ -4,9 +4,9 @@ Portions of the archive reader, patch writer and packagedefinition handling are 
 
 Copies of the available upstream notices are included in `licenses/`:
 
-- `toolbox-LICENSE.txt` — MIT, Copyright (c) 2026 derx05.
-- `toolkit-LICENSE.txt` — MIT, Copyright (c) 2026 Hesham (@7akeem0).
-- `italian-dub-LICENSE.txt` and `italian-dub-NOTICE.md` — upstream scope and distribution notices.
+- `toolbox-LICENSE.txt` - MIT, Copyright (c) 2026 derx05.
+- `toolkit-LICENSE.txt` - MIT, Copyright (c) 2026 Hesham (@7akeem0).
+- `italian-dub-LICENSE.txt` and `italian-dub-NOTICE.md` - upstream scope and distribution notices.
 
 These licenses concern the upstream code and documentation. They do not license the game, extracted data, voice models or generated audio. The optional standalone recipient installer bundles CPython, the lz4 Python extension and a PyInstaller bootloader. Their applicable notices accompany the local release candidate. It does not bundle Wwise, FFmpeg, ElevenLabs credentials or voice models.
 

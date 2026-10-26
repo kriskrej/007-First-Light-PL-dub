@@ -1,19 +1,19 @@
-# Znane problemy
+# Pomoc i znane ograniczenia
 
-## Lipsync: rozmowa z Q — poprawka potwierdzona
+## Instalacja
 
-Zgłoszono okresowe zanikanie animacji ust w Out of the Ashes. Kolejność markerów cue/LIST w WEM została poprawiona zgodnie z oryginałami. Ostatni lokalny audyt objął 38 475 WEM i 7829 DLGE: brak markerów za data, brak zmian EN/FaceFX i brak brakujących zależności twarzy.
+Wydanie **1.0.0 jest kompletne**. Użyj paczki Windows-Steam i dołączonego `ZAINSTALUJ.cmd`. Obsługiwany build Steam: **25753571**. Inne sklepy i nowsze buildy wymagają osobnego sprawdzenia. Nie używaj bezpośredniej instalacji przez Vortex.
 
-19.10.2026 użytkownik potwierdził w grze: „Usta działają przez całą rozmowę z Q”. Zgłoszony problem w rozmowie w laboratorium uznajemy za naprawiony w testowanej wersji. Pozostałe cutscenki wymagają dalszych testów; to potwierdzenie nie obejmuje całej gry.
+## Dźwięk i języki
 
-## Pokrycie
+W grze ustaw audio **English** i napisy **Polski**. Oryginalne wypowiedzi obcojęzyczne, odgłosy, niezrozumiałe tło radiowe Cressidy i dwa wskazane dialogi CIVMRM03 pozostają celowo zachowane. Reakcje bez napisów są poza końcowym zakresem produkcji.
 
-Wspólne reakcje NPC są częściowo gotowe. Trwa również przegląd dodatkowego korpusu bez oryginalnych napisów; pełny procent gry nie jest jeszcze znany. Zmapowane sceny fabularne nie obejmują automatycznie całej zawartości rozdziału podczas rozgrywki. Wypowiedź słuchawkowa Cressidy w All the Time in the World została po ręcznym odsłuchu rozpoznana jako celowo niezrozumiała. Oryginalne tło radiowe pozostaje zachowane; nie liczymy go jako polskiego dubbingu.
+## Animacja ust
 
-## Jakość
+Kolejność markerów WEM została poprawiona zgodnie z oryginałami. 19.10.2026 użytkownik potwierdził działanie ust przez całą rozmowę z Q w laboratorium. Wcześniejsze zgłoszenie dotyczące tego scenariusza uznajemy za naprawione. Przy nowym problemie podaj checkpoint i krótki klip.
 
-Dopasowanie czasu i poziomu wymaga odsłuchu w kontekście muzyki oraz otoczenia. Część nagrań została przyspieszona w dopuszczonych granicach lub ma indywidualnie zweryfikowane wydłużenie. Kontrola techniczna nie jest oceną naturalności gry aktorskiej.
+## Jakość i zgłoszenia
 
-## Dostępność wydania
+Głosy są syntetyczne. Dwie końcowe wypowiedzi zachowują pełne polskie próby zaakceptowane w odsłuchu, z indywidualnym czasem nagrania. Kontrola techniczna nie zastępuje odsłuchu w kontekście muzyki i otoczenia.
 
-Publiczny instalator konsumencki i paczka dubbingu są w przygotowaniu. Wsparcie innych platform, sklepów oraz nowych buildów gry nie zostało potwierdzone.
+Jeśli potrzebujesz pomocy, sprawdź [instrukcję](INSTALLATION.md) i zgłoś problem w Issues. Podaj wersję gry, wersję moda, rozdział i checkpoint.

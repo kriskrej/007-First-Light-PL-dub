@@ -1,13 +1,21 @@
 # Changelog
 
-## 0.9.0-rc1 — przygotowanie 2026-10-21
+## 1.0.0 - kompletne
+
+- Końcowe poprawki po odsłuchu: zaakceptowane polskie CIVUKF05 i CIVEEF01, poprawiony tekst CIVVTM01, dwie kwestie CIVMRM03 zachowane w oryginale.
+- 38 478 polskich nagrań, samodzielny instalator Windows i odinstalowanie.
+- Instrukcja dla graczy na początku README oraz osobna paczka w Releases.
+- Nowy adres repozytorium: https://github.com/kriskrej/007-First-Light-PL-dub.
+
+
+## 0.9.0-rc1 - przygotowanie 2026-10-21
 
 - Instalator odbiorcy odtwarza teksty z lokalnych oryginałów, dobiera wolne patche i używa dziennika z rollbackiem. Ta sama wersja instaluje się jednokrotnie; blokada zapobiega równoległym operacjom.
 - Trwały i atomowy zapis opłaconego WAV przed potwierdzeniem w ledgerze; wcześniejszy plik pozostaje poprawny przy błędzie zapisu.
 - Zawężenie płatnej generacji do jawnej listy zasobów; osobna kontrola pojedynczych, przejrzanych zmian modelu bez automatycznej pętli kolejnych wersji.
 - Domknięcie większości ostatnich dialogów NPC z tekstem; dalsze reakcje bez napisów wyłączone z produkcji.
 
-## W przygotowaniu — pierwsze wydanie publiczne
+## Historia przygotowań
 
 - Uporządkowana publikacja kodu narzędzi i dokumentacji.
 - Oddzielne patche RPKG, kontrola zgodności i odczytu po zapisie.

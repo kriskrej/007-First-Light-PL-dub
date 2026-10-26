@@ -51,7 +51,7 @@ Przed commitem uruchom `python tools/check_repository.py --staged`. Ustaw autors
 Z działającego lokalnego pakietu kampanii można zbudować dane dla instalatora:
 
 ```powershell
-python tools/build_release.py --bundle "ścieżka/do/bundle.json" --game-root "folder gry" --output "dist/mod-data.zip" --version 0.9.0-rc1
+python tools/build_release.py --bundle "ścieżka/do/bundle.json" --game-root "folder gry" --output "dist/mod-data.zip" --version 1.0.0
 ```
 
 Komendę sprawdzono na pełnym lokalnym pakiecie 46 304 zasobów: wszystkie końcowe WEM-y i różnice DLGE odtworzono i porównano. Publiczny builder nie wymaga prywatnego ledgera ani konta TTS. Odmawia zastąpienia istniejącego pliku wydania. Wymaga uprzednio zwalidowanego bundla i zgodnych oryginałów gry.

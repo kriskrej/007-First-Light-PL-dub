@@ -1,21 +1,28 @@
-# Instalacja i zgodność
+# Instalacja dla graczy
 
-## Aktualna dostępność
+1. W [Releases](https://github.com/kriskrej/007-First-Light-PL-dub/releases/tag/v1.0.0) pobierz **007-First-Light-PL-dub-1.0.0-Windows-Steam.zip** z sekcji **Assets**.
+2. Rozpakuj cały ZIP. Nie uruchamiaj instalatora bezpośrednio z archiwum.
+3. Zamknij grę i uruchom **ZAINSTALUJ.cmd**.
+4. Poczekaj na zakończenie. W grze wybierz **English** jako język audio oraz **Polski** jako język napisów.
 
-Pierwsza publiczna paczka dla graczy jest w przygotowaniu. Automatyczne archiwum „Source code” z GitHuba zawiera narzędzia, a nie kompletny dubbing. Gotowe wydanie będzie osobnym załącznikiem w Releases.
+Potrzebujesz własnej kopii 007 First Light na Steam dla Windows, build **25753571**. Instalator sprawdza lokalne pliki i odmawia zapisu przy niezgodności. Nie potrzebujesz Pythona, Wwise ani klucza API. Paczka jest instalowana ręcznie; nie używaj instalacji przez Vortex.
 
-Docelowy zakres pierwszego wydania: Windows i wersja Steam, audio gry EN oraz napisy PL. Numer obsługiwanego buildu zostanie podany przy konkretnej paczce po testach. Zgodność innych sklepów i kolejnych aktualizacji wymaga oddzielnej weryfikacji.
+## Usunięcie moda
 
-## Docelowy przebieg instalacji wydania
+Zamknij grę i uruchom **USUN.cmd**. Usuwane są instalacje wykonane tym instalatorem; zachowane zostają wcześniejsze pliki, zapisy gry i inne mody. Nie usuwaj folderu `.007pl` z katalogu gry, ponieważ zawiera dzienniki i backupy.
 
-Instalator sprawdzi zamknięcie gry, jej wersję, wolne miejsce, sumy plików oraz istniejące mody. Przed zmianą zapisze dziennik i dane rollbacku. Nowy pakiet ma zachować bazowe archiwa i używać własnych patchy.
+## Gdy instalator nie wykryje gry
 
-Komendy dla paczki konsumenckiej zostaną opublikowane wraz z jej faktycznie sprawdzonym instalatorem. Obecne skrypty w repozytorium są narzędziami developerskimi i wymagają lokalnie przygotowanych danych.
+Uruchom w rozpakowanym folderze:
 
-## Aktualizacja i usuwanie
+```powershell
+.\ZAINSTALUJ.cmd --game-root "pełna ścieżka do folderu gry"
+```
 
-Zatrzymaj grę przed zmianami. Korzystaj z aktualizacji i odinstalowania należących do danego wydania. Zachowaj dziennik oraz backup do czasu poprawnej weryfikacji. Nie usuwaj całego Runtime i nie nadpisuj ustawień innych modów.
+W Steam znajdziesz tę ścieżkę przez Właściwości gry, Zainstalowane pliki, Przeglądaj.
 
-Po aktualizacji gry sprawdź zgodność wydania moda. Niezgodność musi skutkować odmową instalacji lub przywracania do starych offsetów, a nie wymuszonym zapisem.
+## Sprawdzenie plików i aktualizacje
 
-Testy na innej instalacji: [TESTING.md](TESTING.md). Bieżące ograniczenia: [KNOWN_ISSUES.md](KNOWN_ISSUES.md).
+**SPRAWDZ.cmd** sprawdza paczkę. **TEST-BEZ-ZMIAN.cmd** pokazuje plan instalacji bez zmiany gry. Ten sam pakiet można uruchomić ponownie bez tworzenia duplikatu instalacji. Przed aktualizacją gry najlepiej usuń mod dołączonym skryptem; po aktualizacji sprawdź zgodność buildu. Nie podmieniaj ręcznie całego `packagedefinition.txt` i nie usuwaj bazowych archiwów Runtime.
+
+Pliki **Source code** w Releases służą programistom. Nie zawierają gotowego dubbingu. [Pomoc](KNOWN_ISSUES.md).

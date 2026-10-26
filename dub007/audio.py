@@ -1,5 +1,6 @@
 """Conservative sample-count and level matching for the PoC dialogue."""
 from array import array
+import json
 import math
 import os
 from pathlib import Path
@@ -65,6 +66,29 @@ def has_one_polish_segment(row):
 
 
 def target_samples(row):
+    approved = row.get("user_approved_final_take_timing")
+    if approved:
+        cues = row.get("original_markers", {}).get("cue ", {}).get("points", [])
+        count = approved.get("sample_count")
+        evidence = ROOT / approved.get("evidence_path", "")
+        if not (isinstance(count, int) and row["sample_count"] <= count
+                <= row["sample_count"] + 2 * row["sample_rate"]
+                and row.get("chapter_id") and has_one_polish_segment(row)
+                and cues and all(point["sample_offset"] == 0 for point in cues)
+                and "smpl" not in row["original_markers"]
+                and approved.get("source_sha256")
+                and evidence.is_file()
+                and sha256(evidence.read_bytes()) == approved.get("evidence_sha256")):
+            raise ValueError("Final take duration requires matching user listening approval and simple markers")
+        document = json.loads(evidence.read_text(encoding="utf-8"))
+        choice = document.get("approved_final_takes", {}).get(row["audio_hash_en"], {})
+        if (choice.get("sample_count") != count
+                or choice.get("source_sha256") != approved["source_sha256"]
+                or choice.get("original_sample_count") != row["sample_count"]
+                or choice.get("sample_rate") != row["sample_rate"]
+                or choice.get("user_approved") is not True):
+            raise ValueError("Final take does not match the recorded user listening decision")
+        return count
     extension = row.get("reviewed_duration_extension_seconds", 0)
     if extension:
         cues = row.get("original_markers", {}).get("cue ", {}).get("points", [])
