@@ -2,7 +2,7 @@
 
 ## Instalacja
 
-Wydanie **1.0.0 jest kompletne**. Użyj paczki Windows-Steam i dołączonego `ZAINSTALUJ.cmd`. Obsługiwany build Steam: **25753571**. Inne sklepy i nowsze buildy wymagają osobnego sprawdzenia. Nie używaj bezpośredniej instalacji przez Vortex.
+Wydanie **1.0.0 jest kompletne**. Pobierz paczkę **pliki-do-przeniesienia.zip** i skopiuj jej folder `Runtime` zgodnie z [instrukcją](INSTALLATION.md). Paczka nie zawiera plików wykonywalnych ani skryptów. Obsługiwany build Steam: **25753571**, czysta instalacja. Inne sklepy i nowsze buildy wymagają osobnego sprawdzenia. Nie łącz paczki z innymi modami zmieniającymi te same trzy pliki.
 
 ## Dźwięk i języki
 

@@ -2,18 +2,18 @@
 
 **Kompletne polskie tłumaczenie z dubbingiem. Bezpłatny mod na PC / Steam.**
 
-## Pobierz i zainstaluj
+## Pobierz i skopiuj
 
-1. **[Pobierz polski dubbing 1.0.0 dla Windows / Steam](https://github.com/kriskrej/007-First-Light-PL-dub/releases/download/v1.0.0/007-First-Light-PL-dub-1.0.0-Windows-Steam.zip)**. [Strona wydania i sumy kontrolne](https://github.com/kriskrej/007-First-Light-PL-dub/releases/tag/v1.0.0).
-2. Rozpakuj cały ZIP do dowolnego folderu i zamknij grę.
-3. Uruchom **`ZAINSTALUJ.cmd`**. Poczekaj na komunikat o zakończeniu; sprawdzanie plików może potrwać kilka minut.
+1. **[Pobierz pliki do przeniesienia](https://github.com/kriskrej/007-First-Light-PL-dub/releases/download/v1.0.0/007-First-Light-PL-dub-1.0.0-pliki-do-przeniesienia.zip)** i rozpakuj ZIP. Zamknij grę.
+2. Zrób kopię pliku **`Runtime/packagedefinition.txt`** oraz **`chunk0patch1.rpkg`** i **`chunk1patch1.rpkg`**, jeśli już istnieją.
+3. Skopiuj folder **`Runtime`** z paczki do folderu **007 First Light**. Zgódź się na zastąpienie trzech plików.
 4. W grze ustaw **audio: English** i **napisy: Polski**.
 
-Nie potrzebujesz Pythona, Wwise, konta ElevenLabs ani klucza API. Archiwa **Source code** zawierają kod narzędzi; paczką dla graczy jest wskazany plik **Windows-Steam.zip**.
+Paczka zawiera tylko trzy gotowe pliki gry i **INSTRUKCJA.txt**. Bez EXE, BAT, CMD i skryptów. Niczego nie uruchamiasz. [Strona wydania](https://github.com/kriskrej/007-First-Light-PL-dub/releases/tag/v1.0.0).
 
-**Odinstalowanie:** zamknij grę i uruchom **`USUN.cmd`** z rozpakowanej paczki. Zachowaj folder `.007pl` w katalogu gry - zawiera dane potrzebne do cofnięcia instalacji.
+**Cofnięcie:** zamknij grę i przywróć swoje kopie. Jeśli wcześniej nie było plików `chunk0patch1.rpkg` i `chunk1patch1.rpkg`, usuń tylko te dwa pliki.
 
-**Zgodność:** Windows, Steam, build **25753571**. Instalator sam wykrywa grę i sprawdza zgodność plików. [Pełna instrukcja](docs/INSTALLATION.md) · [Pomoc i znane ograniczenia](docs/KNOWN_ISSUES.md)
+**Zgodność:** czysta instalacja Windows / Steam, build **25753571**. Nie łącz tej paczki z innymi modami zmieniającymi te same trzy pliki. [Instrukcja kopiowania](docs/INSTALLATION.md) · [Pomoc i znane ograniczenia](docs/KNOWN_ISSUES.md)
 
 ## O wydaniu
 
@@ -37,7 +37,7 @@ W [Issues](https://github.com/kriskrej/007-First-Light-PL-dub/issues) podaj wers
 
 [Stan wydania](docs/STATUS.md) · [Testy](docs/TESTING.md) · [Rozwój narzędzi](docs/DEVELOPMENT.md) · [Materiały publikacyjne](docs/RELEASE_PUBLICATION.md)
 
-Instalator używa osobnych patchy RPKG, zachowuje wcześniejsze mody i zapisuje dane rollbacku. Kod oraz dokumentacja są dostępne w tym repozytorium. Audio jest osobnym załącznikiem wydania.
+Paczka do kopiowania zawiera dwa osobne patche RPKG i manifest ich ładowania. Gotowe pliki są załącznikiem wydania; kod narzędzi i dokumentacja pozostają w repozytorium.
 
 Autor: **Kris Krej**. Wykorzystane projekty i autorzy: [Credits](CREDITS.md), [Third-party notices](THIRD_PARTY_NOTICES.md). Zasady licencji i udostępniania: [LEGAL.md](LEGAL.md).
 

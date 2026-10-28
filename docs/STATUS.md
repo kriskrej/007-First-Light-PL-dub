@@ -6,7 +6,7 @@ Wydanie ma **38 478 polskich nagrań**. Dialogi fabularne i NPC w uzgodnionym za
 
 Oryginalne obce języki, odgłosy i wskazane wyjątki pozostają celowo zachowane. Dalszych reakcji bez napisów nie produkowano zgodnie z decyzją właściciela; 10 844 wcześniej przygotowane polskie nagrania tego typu pozostają dołączone.
 
-Instalator Windows jest samodzielny i nie wymaga konta ElevenLabs. Używa osobnych patchy, wykrywa zgodność źródeł, zapisuje backupy i dzienniki oraz pozwala cofnąć własne zmiany. Paczka dla graczy jest oddzielona od kodu narzędzi.
+Od 28.10.2026 paczka dla graczy zawiera wyłącznie gotowe pliki do skopiowania: dwa patche RPKG, `packagedefinition.txt` i prostą instrukcję. Bez EXE, BAT, CMD ani skryptów. Wersja audio pozostaje 1.0.0. Paczka jest przeznaczona dla czystej instalacji Steam build 25753571; gracz zachowuje kopie zastępowanych plików. Kod narzędzi pozostaje oddzielnie w repozytorium.
 
 Testy techniczne obejmują kod, markery, metadane, odczyt patchy, instalację oraz rollback. Wcześniejsze potwierdzenia w grze obejmują pierwszą polską wypowiedź, całą rozmowę z Q po poprawce animacji ust i około dwugodzinny grany fragment. Końcowy odsłuch zamyka wskazane kwestie; nie oznacza nowego pełnego przejścia gry.
 

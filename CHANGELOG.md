@@ -1,5 +1,11 @@
 # Changelog
 
+## Paczka do kopiowania - 28.10.2026
+
+- Gotowe pliki `Runtime` oraz krótka instrukcja kopiowania zamiast instalatora.
+- W załączniku dla graczy brak EXE, BAT, CMD i skryptów.
+- Nagrania pozostają w wersji 1.0.0; zmiana dotyczy sposobu dostarczenia.
+
 ## 1.0.0 - kompletne
 
 - Końcowe poprawki po odsłuchu: zaakceptowane polskie CIVUKF05 i CIVEEF01, poprawiony tekst CIVVTM01, dwie kwestie CIVMRM03 zachowane w oryginale.
@@ -34,4 +40,4 @@
 - Walidacja konfiguracji przed otwarciem SQLite i uniezależnienie testów od prywatnego workspace.
 - Dokumentacja instalacji, zgodności, testowania, licencji i znanych problemów.
 
-Nie opublikowano jeszcze paczki dubbingu ani nie nadano jej finalnego numeru wersji.
+Wcześniejsze wpisy opisują przygotowanie przed publikacją 1.0.0.
